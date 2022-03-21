@@ -1,11 +1,11 @@
-package org.example.yygh.hosp.model.hosp;
+package org.example.yygh.model.hosp;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-import org.example.yygh.hosp.model.base.BaseEntity;
+import org.example.yygh.model.base.BaseEntity;
 
 /**
  * @author 李聪燕

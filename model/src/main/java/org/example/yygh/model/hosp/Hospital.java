@@ -1,4 +1,4 @@
-package org.example.yygh.hosp.model.hosp;
+package org.example.yygh.model.hosp;
 
 /**
  * @author 李聪燕

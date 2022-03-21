@@ -1,7 +1,7 @@
 package org.example.yygh.hosp.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.example.yygh.hosp.model.hosp.HospitalSet;
+import org.example.yygh.model.hosp.HospitalSet;
 
 /**
  * @author 李聪燕
