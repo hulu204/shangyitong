@@ -73,5 +73,14 @@ public class HospitalSetController {
         return flag ? Result.ok() : Result.fail();
     }
 
+    @ApiOperation("状态更改")
+    @PutMapping("/lockHospSet/{id}/{status}")
+    public Result lockHospSet(@PathVariable("id")long id,
+                              @PathVariable("status")Integer status) {
+        HospitalSet hospitalSet = hospitalSetService.getById(id);
+        hospitalSet.setStatus(status);
+        hospitalSetService.updateById(hospitalSet);
+        return Result.ok();
+    }
 
 }
