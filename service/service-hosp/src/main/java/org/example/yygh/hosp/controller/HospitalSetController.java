@@ -60,7 +60,7 @@ public class HospitalSetController {
     }
 
     @ApiOperation("修改医院设置")
-    @PutMapping("/updateHospSet/{id}")
+    @PutMapping("/updateHospSet")
     public Result updateHospSet(@RequestBody HospitalSet hospitalSet) {
         boolean flag = hospitalSetService.updateById(hospitalSet);
         return flag ? Result.ok() : Result.fail();
